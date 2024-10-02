@@ -23,6 +23,7 @@ def run_app():
     print(f"SECRET_KEY: {config.SECRET_KEY}")
     print(f"SECRET_COOKIES: {config.SECRET_COOKIES}")
     print(f"API_ENDPOINT: {config.API_ENDPOINT}")
+    print(f"API_TIMEOUT: {config.API_TIMEOUT}")
 
 if __name__ == "__main__":
     run_app()
