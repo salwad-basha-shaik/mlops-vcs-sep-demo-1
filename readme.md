@@ -42,4 +42,3 @@ This demo explains how to configure and run the application for different enviro
 
 ---
 
-Feel free to customize this README further as per your project's requirements!
