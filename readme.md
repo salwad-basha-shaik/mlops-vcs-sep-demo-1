@@ -57,8 +57,24 @@ This demo provides steps to test the environment configuration using unit test c
 2. Run the unit tests:
 
    ```bash
-   python -m unittest -v ml-packaging/test_config.py
+   python test_config.py
    ```
+
+---
+
+
+### Demo-3: YAML Configuration Example
+
+In addition to the previous methods, configurations can also be set using a YAML file. 
+An example of this can be found in the `ml-packaging/config1.yml` file.
+
+#### To Read and Print Configuration Settings:
+
+You can read and print all the configuration settings using the following command:
+
+```bash
+python ml-packaging/explain_yaml.py
+```
 
 ---
 
