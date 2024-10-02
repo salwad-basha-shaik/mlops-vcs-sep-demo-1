@@ -41,3 +41,24 @@ This demo explains how to configure and run the application for different enviro
      ```
 
 ---
+
+### Demo-2: Testing Environment File with Unit Test Cases
+
+This demo provides steps to test the environment configuration using unit test cases.
+
+#### Steps to Follow:
+
+1. Set the environment to development:
+   
+   ```bash
+   export ENV=development
+   ```
+
+2. Run the unit tests:
+
+   ```bash
+   python test_config.py
+   ```
+
+---
+
