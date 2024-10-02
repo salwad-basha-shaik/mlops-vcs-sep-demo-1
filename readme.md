@@ -57,7 +57,7 @@ This demo provides steps to test the environment configuration using unit test c
 2. Run the unit tests:
 
    ```bash
-   python ml-packaging/test_config.py
+   python -m unittest -v ml-packaging/test_config.py
    ```
 
 ---
