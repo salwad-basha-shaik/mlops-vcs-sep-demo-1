@@ -1,18 +1,45 @@
+
 # Sep_vcs_demo
 
-ml-packaging demos:
+This repository contains **ML-packaging demos** to showcase configurations for different environments.
 
-demo-1:
+---
 
-configurations for different environments
+## ML-Packaging Demos
 
-step1:
-install vs code
-install anaconda, after installing anaconda activate it by
-> conda activate
+### Demo-1: Environment Configurations
 
-step2:
-run ml-packaging/config.py and then run ml-packaging/app.py
-python config.py 
-export ENV=production
-python app.py
+This demo explains how to configure and run the application for different environments.
+
+#### Steps to Follow:
+
+1. **Install Prerequisites**
+   - Install **Visual Studio Code (VS Code)**.
+   - Install **Anaconda**.
+   
+2. **Activate Anaconda**
+   After installing Anaconda, activate the environment by running:
+   
+   ```bash
+   conda activate
+   ```
+
+3. **Run the Configuration and Application**
+   Navigate to the `ml-packaging` folder and execute the following steps:
+
+   - **Step 1**: Run the configuration script.
+   
+     ```bash
+     python config.py
+     ```
+
+   - **Step 2**: Set the environment to production and run the application.
+   
+     ```bash
+     export ENV=production
+     python app.py
+     ```
+
+---
+
+Feel free to customize this README further as per your project's requirements!
