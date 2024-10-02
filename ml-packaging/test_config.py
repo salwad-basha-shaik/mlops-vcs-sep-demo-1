@@ -12,17 +12,7 @@ class TestConfigurations(unittest.TestCase):
         self.assertEqual(config.DATABASE_URI, 'sqlite:///:memory:')
         self.assertEqual(config.LOG_LEVEL, 'DEBUG')
         self.assertEqual(config.SECRET_KEY, 'mysecretkey-dev')
-        self.assertEqual(config.API_TIMEOUT, 5)
-
-    def test_production_config(self):
-        """Test the ProductionConfig settings"""
-        config = ProductionConfig()
-        self.assertFalse(config.DEBUG)
-        self.assertFalse(config.TESTING)
-        self.assertEqual(config.DATABASE_URI, 'mysql://user@localhost/foo')
-        self.assertEqual(config.LOG_LEVEL, 'INFO')
-        self.assertEqual(config.SECRET_KEY, 'mysecretkey-prod')
-        self.assertEqual(config.API_TIMEOUT, 10)
+        self.assertEqual(config.API_TIMEOUT, 17)
 
     def test_testing_config(self):
         """Test the TestingConfig settings"""
@@ -32,7 +22,18 @@ class TestConfigurations(unittest.TestCase):
         self.assertEqual(config.DATABASE_URI, 'sqlite:///:memory:')
         self.assertEqual(config.LOG_LEVEL, 'DEBUG')
         self.assertEqual(config.SECRET_KEY, 'mysecretkey-test')
-        self.assertEqual(config.API_TIMEOUT, 1)
+        self.assertEqual(config.API_TIMEOUT, 18)
+        
+    def test_production_config(self):
+        """Test the ProductionConfig settings"""
+        config = ProductionConfig()
+        self.assertFalse(config.DEBUG)
+        self.assertFalse(config.TESTING)
+        self.assertEqual(config.DATABASE_URI, 'mysql://user@localhost/foo')
+        self.assertEqual(config.LOG_LEVEL, 'INFO')
+        self.assertEqual(config.SECRET_KEY, 'mysecretkey-prod')
+        self.assertEqual(config.API_TIMEOUT, 19)
+
 
     def test_invalid_environment(self):
         """Ensure an error is raised for an invalid environment"""
