@@ -59,13 +59,15 @@ source demo2/bin/activate
      ```
 ---
 
+---
+
 ### Demo-2: Fetching the dataset from openml and train and deploy to streamlit, localtunnel
 
 
 #### Steps to Follow:
 
    For getting the publicip
-   
+
    ```bash
      curl ipv4.icanhazip.com
      (or)
