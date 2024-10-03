@@ -76,5 +76,4 @@ source demo2/bin/activate
      ```bash
      streamlit run app_ML_streamlit.py & npx localtunnel --port 8501
      ```
-
 ---
