@@ -85,3 +85,14 @@ Read the below file to understand and know the importance of two different envir
 ```bash
 sh ml-packaging/virtualenv-demo.sh
 ```
+To create virutal environments we can use below commands
+```bash
+virtualenv demo1
+python -m venv demo2
+```
+
+To activate your virutal environments we can use below commands
+```bash
+source demo1/bin/activate
+source demo2/bin/activate
+```

@@ -2,3 +2,5 @@ ml-packaging/__pycache__
 ml-packaging/demo1
 ml-packaging/demo2
 .DS_Store
+streamlit-and-flask_app/demo1
+streamlit-and-flask_app/demo2
