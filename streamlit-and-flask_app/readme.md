@@ -65,6 +65,7 @@ source demo2/bin/activate
 #### Steps to Follow:
 
    For getting the publicip
+   
    ```bash
      curl ipv4.icanhazip.com
      (or)
