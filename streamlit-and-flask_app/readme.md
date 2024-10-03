@@ -45,30 +45,35 @@ source demo2/bin/activate
 3. **Run the basic streamlit Application**
    Navigate to the `streamlit-and-flask_app` folder and execute the following steps:
 
-   - **Step 1**: Run the sample app. ( below will run the streamlit app and then pass output to node package module to install localtunnel and then forward your localport 8501 to https URL)
+   - **Step 1**: Run the sample app. ( below will run the streamlit app and then pass output to node package module to install localtunnel and then forward your localport 8501 to https URL), password is your public-ip
    
+   For getting the publicip
+   ```bash
+     curl ipv4.icanhazip.com
+     (or)
+     wget -q -O - ipv4.icanhazip.com
+     ```
+   To run the app
      ```bash
      streamlit run app_streamlit.py & npx localtunnel --port 8501
      ```
 ---
 
-### Demo-2: Testing Environment File with Unit Test Cases
+### Demo-2: Fetching the dataset from openml and train and deploy to streamlit, localtunnel
 
-This demo provides steps to test the environment configuration using unit test cases.
 
 #### Steps to Follow:
 
-1. Set the environment to development:
-   
+   For getting the publicip
    ```bash
-   export ENV=development
-   ```
-
-2. Run the unit tests:
-
-   ```bash
-   python test_config.py
-   ```
+     curl ipv4.icanhazip.com
+     (or)
+     wget -q -O - ipv4.icanhazip.com
+     ```
+   To run the app
+     ```bash
+     streamlit run app_ML_streamlit.py & npx localtunnel --port 8501
+     ```
 
 ---
 
