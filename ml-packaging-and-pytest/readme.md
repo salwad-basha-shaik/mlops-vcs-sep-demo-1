@@ -117,3 +117,30 @@ To run this
 ```bash
 pytest -v ml-packaging-and-pytest/pytest-more-demos/pytest_parametrize.py
 ```
+
+---
+
+
+### Demo-7: Pytest demo-3
+
+this will demonstrates the use of a pytest fixture to provide test data to a test function.
+
+Code Explanation
+
+	1.	Importing pytest:
+	•	The code begins by importing the pytest library, which is essential for running tests and using fixtures.
+	2.	Creating a Fixture:
+	•	The @pytest.fixture decorator is used to define a fixture named sample_data.
+	•	This fixture, sample_data, returns a list of integers: [1, 2, 3, 4, 5].
+	•	Fixtures in pytest are useful for setting up data or states that can be used across multiple test functions.
+	3.	Defining the Test Function:
+	•	The function test_sum takes sample_data as an argument. Pytest automatically recognizes that sample_data is a fixture and provides its return value to the test function.
+	•	Inside test_sum, the code uses assert to check if the sum of sample_data equals 15.
+	•	If the sum is indeed 15, the test will pass. Otherwise, it will fail.
+
+
+To run this 
+```bash
+pytest -v test_fixture_example.py  -- to clear output like how much percentage completed by each testcase.
+python -m pytest pytest_parametrize.py - for normal output that displays how much combined percentage at the end of all testcases.
+```
