@@ -25,7 +25,7 @@ This demo explains how to configure and run the application for different enviro
    ```
 
 3. **Run the Configuration and Application**
-   Navigate to the `ml-packaging` folder and execute the following steps:
+   Navigate to the `ml-packaging-and-pytest` folder and execute the following steps:
 
    - **Step 1**: Run the configuration script.
    
@@ -66,14 +66,14 @@ This demo provides steps to test the environment configuration using unit test c
 ### Demo-3: YAML Configuration Example
 
 In addition to the previous methods, configurations can also be set using a YAML file. 
-An example of this can be found in the `ml-packaging/config1.yml` file.
+An example of this can be found in the `ml-packaging-and-pytest/config1.yml` file.
 
 #### To Read and Print Configuration Settings:
 
 You can read and print all the configuration settings using the following command:
 
 ```bash
-python ml-packaging/explain_yaml.py
+python ml-packaging-and-pytest/explain_yaml.py
 ```
 
 ---
@@ -83,7 +83,7 @@ python ml-packaging/explain_yaml.py
 Read the below file to understand and know the importance of two different environments in same machine to handle 2 different models that are required two different versions of dependancies.
 
 ```bash
-sh ml-packaging/virtualenv-demo.sh
+sh ml-packaging-and-pytest/virtualenv-demo.sh
 ```
 To create virutal environments we can use below commands
 ```bash
@@ -106,4 +106,14 @@ This will check basic unit tests using assertions for addition, multiplication, 
 To run this 
 ```bash
 python -m pytest test_math.py
+```
+---
+
+### Demo-6: Pytest demo-2
+
+This will check the pytest framework with parameterized tests to check if a given word (“duck”) exists in provided text samples. And see [ml-packaging-and-pytest/readme-for-pytest_parametrize.md](readme-for-pytest_parametrize.md) file clear explanation.
+
+To run this 
+```bash
+pytest -v ml-packaging-and-pytest/pytest-more-demos/pytest_parametrize.py
 ```
