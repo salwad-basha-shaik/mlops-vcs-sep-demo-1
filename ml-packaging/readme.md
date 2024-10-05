@@ -96,3 +96,14 @@ To activate your virutal environments we can use below commands
 source demo1/bin/activate
 source demo2/bin/activate
 ```
+
+---
+
+### Demo-5: Pytest demo-1
+
+This will check basic unit tests using assertions for addition, multiplication, and sine calculation using Python’s math library.
+
+To run this 
+```bash
+python -m pytest test_math.py
+```

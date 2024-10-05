@@ -4,3 +4,5 @@ ml-packaging/demo2
 .DS_Store
 streamlit-and-flask_app/demo1
 streamlit-and-flask_app/demo2
+ml-packaging/pytest-more-demos/__pycache__
+ml-packaging/pytest-more-demos/.pytest_cache
