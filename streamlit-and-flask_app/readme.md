@@ -128,14 +128,3 @@ This repository contains **Streamlit and Flask demos** to showcase configuration
    After deploying you can validate in your local as well as in using localtunnel URL with public ip as a password for your tunnnel.
 
 ---
-
-
-
-
-
-
- cd streamlit-and-flask_app/
-  254  conda activate
-  255  python iris_train_file_pkl.py 
-  256  streamlit run app_ML_iris_serve.py & npx localtunnel --port 8501
-  257  history
