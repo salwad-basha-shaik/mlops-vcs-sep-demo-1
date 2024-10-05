@@ -90,3 +90,52 @@ This repository contains **Streamlit and Flask demos** to showcase configuration
 
 
 ---
+
+---
+
+### Demo-3: Fetching Iris Dataset from sklearn library, Training, and save it to .pkl file and Deploying to Streamlit via Localtunnel
+
+#### Steps to Follow:
+
+1. **Retrieve Your Public IP Address**
+
+   Before starting the application, obtain your public IP address:
+
+   ```bash
+   curl ipv4.icanhazip.com
+   # or
+   wget -q -O - ipv4.icanhazip.com
+   ```
+
+2. **To Dataset load, train and save the model into .pkl file**
+
+   Execute the following:
+
+   ```bash
+   conda activate  # Activate conda if it is not activated
+   python iris_train_file_pkl.py
+   ```
+
+   After running above command you can observe that .pkl file will be created or whatever file you have it will updated.
+
+3. **To Deploy app to streamlit and then expose it as HTTPS via localtunnel**
+
+   To run the app, execute the following:
+
+   ```bash
+   streamlit run app_ML_iris_serve.py & npx localtunnel --port 8501
+   ```
+   After deploying you can validate in your local as well as in using localtunnel URL with public ip as a password for your tunnnel.
+
+---
+
+
+
+
+
+
+ cd streamlit-and-flask_app/
+  254  conda activate
+  255  python iris_train_file_pkl.py 
+  256  streamlit run app_ML_iris_serve.py & npx localtunnel --port 8501
+  257  history
