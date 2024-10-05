@@ -128,7 +128,7 @@ This repository contains **Streamlit and Flask demos** to showcase configuration
    After deploying you can validate in your local as well as in using localtunnel URL with public ip as a password for your tunnnel.
 
 ---
-### Demo-5: run sample flask API and access it.
+### Demo-4: run sample flask API and access it.
 
 Execute the following:
 
@@ -140,7 +140,7 @@ Execute the following:
 
 ---
 
-### Demo-6: Creating flask Api for the Iris Dataset from sklearn library that we have trained and saves it to .pkl file , after creating accessing this API by 3 ways ( python requests library, postman, CURL command)
+### Demo-5: Creating flask Api for the Iris Dataset from sklearn library that we have trained and saves it to .pkl file , after creating accessing this API by 3 ways ( python requests library, postman, CURL command)
 
 #### Steps to Follow:
 
@@ -189,7 +189,7 @@ Execute the following:
 
 ---
 
-### Demo-7: Creating FAST Api for the Iris Dataset from sklearn library that we have trained and saves it to .pkl file , after creating accessing this API by 3 ways ( python requests library, postman, CURL command)
+### Demo-6: Creating FAST Api for the Iris Dataset from sklearn library that we have trained and saves it to .pkl file , after creating accessing this API by 3 ways ( python requests library, postman, CURL command)
 
 #### Steps to Follow:
 
