@@ -128,3 +128,61 @@ This repository contains **Streamlit and Flask demos** to showcase configuration
    After deploying you can validate in your local as well as in using localtunnel URL with public ip as a password for your tunnnel.
 
 ---
+### Demo-5: run sample flask API and access it.
+
+Execute the following:
+
+   ```bash
+   conda activate  # Activate conda if it is not activated
+   python streamlit-and-flask_app/simple_flask_app.py
+   ```
+
+
+---
+
+### Demo-6: Creating flask Api for the Iris Dataset from sklearn library that we have trained and saves it to .pkl file , after creating accessing this API by 3 ways ( python requests library, postman, CURL command)
+
+#### Steps to Follow:
+
+1. **Ensure that you have iris_model.pkl that we have generated from iris_train_file_pkl.py file**
+
+2. **Run the microservice that we have deployed using Flask**
+
+   Execute the following:
+
+   ```bash
+   conda activate  # Activate conda if it is not activated
+   python streamlit-and-flask_app/modelExecute.py
+   ```
+
+   After running above command you can observe that flask is exposing our api using 5000 port. you can access it and for our model use /predict as a path to the api.
+
+3. **After running the microservice you can access it using 3 ways**
+
+   1st way: To access it using python 'requests' library to access API and validate. execute the following from new terminal windows:
+
+   ```bash
+   python streamlit-and-flask_app/modelLoadUsingRequest.py
+   ```
+   you can check output and validate.
+
+   2nd way: To access it using python 'postman'(application). Just add a http post method request with the below URL and then add below json raw data as a input and then hit Send button.
+
+   ```bash
+   URL: http://127.0.0.1:5000/predict
+
+   json data:
+
+   {
+    "features":[5.5, 2.5, 4.0, 1.3]
+   }
+   ```
+   
+   3rd way: Using CURL command with POST method by passing the input arguments to the api endpoint.
+
+   CURL command:
+
+   ```bash
+   curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"features":[5.5, 2.5, 4.0, 1.3]}'
+   ```
+   you can check output and validate.

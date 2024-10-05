@@ -141,6 +141,6 @@ Code Explanation
 
 To run this 
 ```bash
-pytest -v test_fixture_example.py  -- to clear output like how much percentage completed by each testcase.
-python -m pytest pytest_parametrize.py - for normal output that displays how much combined percentage at the end of all testcases.
+pytest -v ml-packaging-and-pytest/pytest-more-demos/pytest_parametrize.py  -- to clear output like how much percentage completed by each testcase.
+python -m pytest ml-packaging-and-pytest/pytest-more-demos/pytest_parametrize.py - for normal output that displays how much combined percentage at the end of all testcases.
 ```
