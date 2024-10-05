@@ -1,7 +1,7 @@
 
 # Streamlit and Flask Demos
 
-This repository contains **Streamlit and Flask demos** to showcase configurations for different environments.
+This repository contains **Streamlit and Flask and FAST API demos** to showcase configurations for different environments.
 
 ---
 
