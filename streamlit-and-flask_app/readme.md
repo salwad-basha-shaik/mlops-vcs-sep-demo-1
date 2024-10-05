@@ -140,6 +140,17 @@ Execute the following:
 
 ---
 
+### Demo-4.5: Initial validation using simple test script for the iris model.
+
+Execute the following:
+
+   ```bash
+   python streamlit-and-flask_app/test-iris-first-check.py
+   ```
+
+
+---
+
 ### Demo-5: Creating flask Api for the Iris Dataset from sklearn library that we have trained and saves it to .pkl file , after creating accessing this API by 3 ways ( python requests library, postman, CURL command)
 
 #### Steps to Follow:
@@ -267,3 +278,43 @@ Execute the following:
 ```bash
 https://github.com/salwad-basha-shaik/mlops-iris-model-as-a-flask_api.git
 ```
+
+---
+
+### Demo-7: one more example with one model( area model). ( it is actually Demo-4 in course)
+
+2. **Run the microservice that we have deployed using Flask**
+
+   Execute the following:
+
+   ```bash
+   python streamlit-and-flask_app/Demo-4-mode-with-html-input-api/Flask App/app.py
+   ```
+
+   **To test this with CURL command**
+
+   ```bash
+   curl -X POST http://127.0.0.1:5000/predict \
+   -H "Content-Type: application/json" \
+   -d '{"area": 1500}'
+   ```
+
+   output:
+   {
+  "prediction": 362158.4699453552  // Example output; the actual value depends on your model
+   }
+
+---
+
+### Demo-8: one more example with one more model(area model). This example for HTML access.
+
+2. **The same above demo-7 model but this example is to create Flask API with basic HTML view by taking area as a input, along with predict button to predict the ouptut and display in HTML page**
+
+   Execute the following:
+
+   ```bash
+   python streamlit-and-flask_app/Demo-4-mode-with-html-input-api/Flask App/model.py
+   ```
+
+   **To test this open browser with http://127.0.0.1:5000/predict and test it out**
+
