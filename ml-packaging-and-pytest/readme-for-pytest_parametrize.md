@@ -5,7 +5,7 @@ This repository demonstrates how to use the pytest framework with parameterizati
 
 ## Repository Overview
 
-The repository contains a test script, `ml-packaging-and-pytest/pytest_parametrize.py`, that checks if a word is present in a text string. It uses `pytest.mark.parametrize` to run the test function multiple times with different input data.
+The repository contains a test script, `ml-packaging-and-pytest/pytest-more-demos/pytest_parametrize.py`, that checks if a word is present in a text string. It uses `pytest.mark.parametrize` to run the test function multiple times with different input data.
 
 ### Files in the repository:
 
@@ -65,7 +65,7 @@ pip install pytest
    To run the test script `pytest_parametrize.py`, use the following command:
 
 ```bash
-pytest -v ml-packaging-and-pytest/pytest_parametrize.py
+pytest -v ml-packaging-and-pytest/pytest-more-demos/pytest_parametrize.py
 ```
 
 3. **Expected Output**:
