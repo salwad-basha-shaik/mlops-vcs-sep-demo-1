@@ -1,0 +1,456 @@
+1  exit                                                                                                                                           
+    2  conda -v                                                                                                                                       
+    3  conda -version                                                                                                                                 
+    4  conda --version                                                                                                                                
+    5  conda activate                                                                                                                                 
+    6  python -version
+    7  python --version
+    8   jupyterlab
+    9   conda jupyterlab
+   10  conda install -c main jupyterlab
+   11   jupyterlab
+   12   jupyterlab -v
+   13   jupyterlab 
+   14   jupyterlab -v
+   15  conda install -c main jupyterlab
+   16   jupyterlab -v
+   17   jupyter
+   18   jupyter -v
+   19   jupyter -v-version
+   20   jupyter --version
+   21  spyder
+   22  conda activate salwad-mlops-env
+   23  conda info --envs
+   24  jupyter notebook
+   25  spyder 
+   26  git 
+   27  exit
+   28  brew install git
+   29  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   30  brew --version
+   31  echo >> /Users/salwad/.zprofile
+   32      echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/salwad/.zprofile
+   33      eval "$(/opt/homebrew/bin/brew shellenv)"
+   34  echo >> /Users/salwad/.zprofile    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/salwad/.zprofile    eval "$(/opt/homebrew/bin/brew shellenv)"
+   35  echo >> /Users/salwad/.zprofile
+   36      echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/salwad/.zprofile
+   37      eval "$(/opt/homebrew/bin/brew shellenv)"
+   38  brew --version
+   39  brew --version
+   40  brew --version
+   41  brew install git
+   42  git -version
+   43  python -version
+   44  brew install git-gui
+   45  conda activate
+   46  conda -v
+   47  conda --version
+   48  python -version
+   49  python --version
+   50  conda deactivate
+   51  python --version
+   52  python --version
+   53  python --version
+   54  python --version
+   55  python --version
+   56  python --version
+   57  python --version
+   58  conda activate
+   59  python --version
+   60  cond
+   61  ls
+   62  conda activate
+   63  python --version
+   64  python3
+   65  python3 --version
+   66  cd ml-packaging/
+   67  ls
+   68  ls
+   69  python config.py 
+   70  python app.py 
+   71  ENV=Production
+   72  python app.py 
+   73  ENV=production
+   74  python app.py 
+   75  ENV
+   76  export ENV=production
+   77  python app.py 
+   78  history
+   79  export ENV=developement
+   80  python app.py 
+   81  export ENV=development
+   82  python app.py 
+   83  python app.py 
+   84  git pull origin main
+   85  python test_config.py 
+   86  python test_config.py 
+   87  export ENV=production
+   88  python test_config.py 
+   89  python test_config.py 
+   90  python test_config.py 
+   91  python test_config.py 
+   92  python3 test_config.py 
+   93  history
+   94  python -m unittest -v test_config.py 
+   95  python3 -m unittest -v test_config.py 
+   96  python explain_yaml.py 
+   97  conda env list
+   98  numpy
+   99  pip install numpy
+  100  numpy
+  101  pip install numpy install pandas numpy matplotlib
+  102  pip freeze > requirements1.txt
+  103  pip install -r requirements.txt 
+  104  virtualenv
+  105  python --version
+  106  pip install virtualenv
+  107  virtualenv demo1
+  108  source demo1/bin/activate
+  109  pandas --version
+  110  demo1/bin/python -c "import pandas as pd; print('Pandas version in env1:', pd.__version__)"
+  111  demo1/bin/pip install pandas==2.0.2
+  112  pandas --version
+  113  pandas --version
+  114  demo1/bin/python -c "import pandas as pd; print('Pandas version in env1:', pd.__version__)"
+  115  demo1/bin/python3 -c "import pandas as pd; print('Pandas version in env1:', pd.__version__)"
+  116  sh virtualenv-demo.sh 
+  117  sh virtualenv-demo.sh 
+  118  ls -la
+  119  cd ..
+  120  ls -al
+  121  cd .git/
+  122  ls
+  123  ls -ltr
+  124  cd ..
+  125  ls -la
+  126  deactivate
+  127  pandas
+  128  python
+  129  deactivate
+  130  python
+  131  deactivate
+  132  conda deactivate
+  133  python
+  134  python
+  135  python
+  136  git status
+  137  touch .gitignore
+  138  git status
+  139  git -la
+  140  ls -la
+  141  git status
+  142  git status
+  143  git log --oneline
+  144  git log --graph
+  145  conda activate
+  146  ls
+  147  cd streamlit-and-flask_app/
+  148  ls
+  149  pip install streamlit
+  150  streamlit --version
+  151  pip list
+  152  streamlit run app_streamlit.py & npx localtunnel --port 8501
+  153  salvathshaik786143@gmail.com
+  154  ps -ef | grep streamlit
+  155  localtunnel
+  156  pip install localtunnel
+  157  streamlit run app.py & npx localtunnel --port 8501
+  158  streamlit run app_streamlit.py & npx localtunnel --port 8501
+  159  wget -q -O - ipv4.icanhazip.com
+  160  pip install wget
+  161  wget -q -O - ipv4.icanhazip.com
+  162  wget -q -O - ipv4.icanhazip.com
+  163  wget -q -O - ipv4.icanhazip.com
+  164  wget -q -O - ipv4.icanhazip.com
+  165  wget -q -O - ipv4.icanhazip.com
+  166  demo1 activate
+  167  demo1/bin/activate
+  168  ../demo1/bin/activate
+  169  virtualenv demo1
+  170  demo1/bin/activate
+  171  demo1/bin/pip install wget
+  172  wget -q -O - ipv4.icanhazip.com
+  173  python --version
+  174  conda deactivate
+  175  wget -q -O - ipv4.icanhazip.com
+  176  python --version
+  177  virtualenv demo1
+  178  venv
+  179  python
+  180  conda activate
+  181  python -m venv demo2
+  182  python --version
+  183  demo2/bin/activate
+  184  chmod 777 demo2/
+  185  demo2/bin/activate
+  186  chmod -R 777 demo2/
+  187  demo2/bin/activate
+  188  pip install streamlit
+  189  streamlit run app.py & npx localtunnel --port 8501
+  190  streamlit run app_streamlit.py & npx localtunnel --port 8501
+  191  n
+  192  streamlit run app_streamlit.py & npx localtunnel --port 8501
+  193  streamlit run app_streamlit.py 
+  194  nx
+  195  conda install -c conda-forge nodejs
+  196  streamlit run app.py & npx localtunnel --port 8501
+  197  streamlit run app_streamlit.py & npx localtunnel --port 8501
+  198  history
+  199  wget -q -O - ipv4.icanhazip.com
+  200  curl ipv4.icanhazip.com
+  201  streamlit run app_streamlit.py & npx localtunnel --port 8501
+  202  streamlit run app_ML_streamlit.py & npx localtunnel --port 8501
+  203  history
+  204  pwd
+  205  cd ../../Desktop/Equinix\ docs/nexus\ repository\ setup\ with\ https/
+  206  git clone https://github.com/salwad-basha-shaik/nexus-repository-setup-with-https.git
+  207  git status
+  208  ls
+  209  cd nexus-repository-setup-with-https/
+  210  git status
+  211  git config --global user.name
+  212  git add .
+  213  git commit -m 'added setup doc and nexus bundle"
+  214  git commit -m "added setup doc and nexus bundle"
+  215  git branch
+  216  git push -u origin main
+  217  git status
+  218  git add .
+  219  git commit -m "added gdrive link for bundle"
+  220  git push -u origin main
+  221  ls
+  222  git status
+  223  git remote -v
+  224  git branch
+  225  git add .
+  226  git commit -m "added gdrive link for bundle"
+  227  git branch --unset-upstream
+  228  git commit -m "added gdrive link for bundle"
+  229  git push -u origin main
+  230  ls
+  231  mv * ..
+  232  ls
+  233  cd ..
+  234  ls
+  235  ls -ltr
+  236  rm -rf nexus-repository-setup-with-https/
+  237  ls
+  238  ls -ltr
+  239  git clone 
+  240  git clone https://github.com/salwad-basha-shaik/nexus-repository-setup-with-https.git
+  241  ls
+  242  cp AMP-Nexusrepositorysetupwithhttps.pdf Nexus\ repository\ setup\ with\ https.docx 
+  243  LS
+  244  ls
+  245  ls
+  246  ls
+  247  cd nexus-repository-setup-with-https/
+  248  git status
+  249  git add .
+  250  git commit -m "added nexus setup doc and gdrive link for bundle"
+  251  git push -u origin main
+  252  ls
+  253  ls
+  254  cd streamlit-and-flask_app/
+  255  conda activate
+  256  python iris_train_file_pkl.py 
+  257  streamlit run app_ML_iris_serve.py & npx localtunnel --port 8501
+  258  history
+  259  git status
+  260  git add .
+  261  conda activate
+  262  pip install dvc
+  263  dvc remote
+  264  dvc remote list
+  265  cd ../ml-packaging/pytest-more-demos/
+  266  python -m pytest test_math.py 
+  267  python -v pytest pytest_parametrize.py 
+  268  python -v pytest pytest_parametrize.py
+  269  ls
+  270  pytest -v pytest_parametrize.py
+  271  pytest -v test_fixture_example.py 
+  272  python -m pytest  test_fixture_example.py 
+  273  python -m pytest pytest_parametrize.py
+  274  pip install flask
+  275  cd ..
+  276  ls
+  277  ls -lr
+  278  cd .
+  279  ls
+  280  cd pwd
+  281  cwd
+  282  cd ..
+  283  ls
+  284  cd streamlit-and-flask_app/
+  285  ls
+  286  python simple_flask_app.py 
+  287  python modelExecute.py 
+  288  history
+  289  python modeExecuteUsingFastAPI.py 
+  290  pip install fastapi
+  291  python modeExecuteUsingFastAPI.py 
+  292  uvicorn modeExecuteUsingFastAPI:app --reload
+  293  pip install fastapi uvicorn numpy pydantic
+  294  uvicorn modeExecuteUsingFastAPI:app --reload
+  295  python test-iris-first-check.py 
+  296  cd Demo-4-mode-with-html-input-api/
+  297  cd Flask\ App
+  298  LS
+  299  ls
+  300  python model.p
+  301  python model.py 
+  302  python app.py 
+  303  python app.py 
+  304  ls
+  305  cd streamlit-and-flask_app/
+  306  python modelLoadUsingRequest.py 
+  307  curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"feature_array": [5.1, 3.5, 1.4, 0.2]}'
+  308  curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"feature": [5.1, 3.5, 1.4, 0.2]}'
+  309  curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"feature":[5.1, 3.5, 1.4, 0.2]}'
+  310  curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"features":[5.1, 3.5, 1.4, 0.2]}'
+  311  curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"features":[5.5, 2.5, 4.0, 1.3]}'
+  312  history
+  313  curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -d '{  "sepal_length": 5.1,  "sepal_width": 3.5,  "petal_length": 1.4,  "petal_width": 0.2}'
+  314  python streamlit-and-flask_app/modelLoadUsingRequestForFastAPI.py
+  315  python modelLoadUsingRequestForFastAPI.py
+  316  curl -X POST http://127.0.0.1:5000/predict \   -H "Content-Type: application/json" \   -d '{"area": 1500}'
+  317  curl -X POST http://127.0.0.1:5000/predict    -H "Content-Type: application/json"    -d '{"area": 1500}'
+  318  conda activate
+  319  pip install dvc
+  320  conda activate
+  321  pip install dvc
+  322  got status
+  323  git status
+  324  cd ..
+  325  ls
+  326  cd ..
+  327  ls
+  328  cd ..
+  329  ls
+  330  git status
+  331  git add .
+  332  git commit -m "added text data"
+  333  git push -u origin main
+  334  git status
+  335  git pwd
+  336  cp -pr /Users/salwad/Downloads/human\ detection\ dataset/ .
+  337  git status
+  338  git add .
+  339  git commit -m "added human dataset"
+  340  git push -u origin main
+  341  git log 
+  342  git revert 001e24c7b2707f05633f20d71e0459d6a7368678
+  343  git revert 001e24c7b2707f05633f20d71e0459d6a7368678
+  344  git status
+  345  git revert --continue
+  346  git revert --abort
+  347  git status
+  348  ls
+  349  dir
+  350  pwd
+  351  mv human_dataset/ ..
+  352  git status
+  353  git add .
+  354  git commit -m "removed dataset as it is not recommended"
+  355  git push -u origin main
+  356  git status
+  357  git add .
+  358  git commit -m "added 3rd line in test dataset"
+  359  git tag v1.0
+  360  git push origin --tags
+  361  git status
+  362  git add .
+  363  git commit -m "added mlcode"
+  364  git tag v2.0
+  365  git push origin main --tag
+  366  dvc init
+  367  git status
+  368  git add .
+  369  git commit -m "dvc initiated"
+  370  git tag v3.0
+  371  git push origin main --tag
+  372  cp -pr ../human_dataset/ .
+  373  git status
+  374  dvc add human_dataset/
+  375  git status
+  376  git add .
+  377  git commit -m "added human dataset.dvc"
+  378  git tag v4.0
+  379  git push origin main --tag
+  380  git status
+  381  dvc status
+  382  git add human_dataset
+  383  dvc add human_dataset
+  384  git status
+  385  git add .
+  386  git commit -m "0-32 file deleted"
+  387  git tag v5.0
+  388  git push origin main --tag
+  389  git log
+  390  git checkout 05e704152d5f6d1cb184513cb525f615f00dec73
+  391  dvc checkout
+  392  git log
+  393  git checkout v5.0
+  394  dvc checkout
+  395  git status
+  396  dvc status
+  397  dvc add dvc/sentiment_analysis.txt 
+  398  git add .
+  399  git commit -m "sentiment-added"
+  400  git tag v6.0
+  401  git push origin main --tag
+  402  git add .
+  403  git status
+  404  git checkout main
+  405  dvc add dvc/sentiment_analysis.txt 
+  406  git add .
+  407  git commit -m "sentiment-added"
+  408  git tag v7.0
+  409  git status
+  410  git push origin main --tag
+  411  git status
+  412  dvc status
+  413  dvc add dvc/iris_model.pkl 
+  414  git status
+  415  git add .
+  416  git commit -m "iris_model.pkl has been added"
+  417  git tag v7.0
+  418  git tag v8.0
+  419  git push origin main --tag
+  420  git status
+  421  dvc status
+  422  dvc add dvc/diabetes.csv 
+  423  dvc status
+  424  git status
+  425  git add .
+  426  git commit -m "added diabetes.csv.dvc dataset"
+  427  git tag v8.0
+  428  git tag v9.0
+  429  git push origin main --tag
+  430  git branch
+  431  dvc remote add -d myremote gs://dvcdemo3
+  432  dvc remote ls
+  433  dvc remote list
+  434  dvc push
+  435  gcloud auth application-default login
+  436  conda install conda-forge::google-cloud-sdk
+  437  gcloud auth application-default login
+  438  gcloud auth application-default login
+  439  curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-linux-x86_64.tar.gz
+  440  tar -xf google-cloud-cli-linux-x86_64.tar.gz
+  441  cd ..
+  442  ls
+  443  ./google-cloud-sdk/install.sh
+  444  gcloud
+  445  ./google-cloud-sdk/install.sh --help
+  446  ./google-cloud-sdk/install.sh --path-update
+  447  ./google-cloud-sdk/install.sh --path-update true
+  448  gcloud
+  449  /Users/salwad/google-cloud-sdk/bin/gcloud auth application-default login
+  450  cd mlops-vcs-sep-demo-1/
+  451  dvc status
+  452  dvc remote list
+  453  dvc push
+  454  pip install dvc-gs
+  455  dvc push
+  456  history
