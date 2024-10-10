@@ -7,3 +7,5 @@ streamlit-and-flask_app/demo2
 ml-packaging/pytest-more-demos/__pycache__
 ml-packaging/pytest-more-demos/.pytest_cache
 /human_dataset
+mlruns
+mlflow/mlartifacts
