@@ -157,8 +157,8 @@ This repository contains **MLFLOW experiments Demos** to showcase expermiments w
    
    Navigate to the `mlflow` folder and execute the following steps:
 
-   # Make sure you copy the correct Run id.
-   # Here we are predicting using the pandas dataframe (case1)
+   **Make sure you copy the correct Run id**
+   **Here we are predicting using the pandas dataframe (case1)**
 
    ```bash
    python mlflow/mlflow_rf_inference_code.py
@@ -167,8 +167,8 @@ This repository contains **MLFLOW experiments Demos** to showcase expermiments w
    
    Navigate to the `mlflow` folder and execute the following steps:
    
-   # Make sure you copy the correct Run id.
-   # Here we are predicting using the Spark dataframe (case2)
+    **Make sure you copy the correct Run id**
+    **Here we are predicting using the Spark dataframe (case2)**
 
     **Install pre-requistes modules and JAVA11 in ananconda for spark dataframe to use it to predict**
 
@@ -184,7 +184,7 @@ This repository contains **MLFLOW experiments Demos** to showcase expermiments w
    conda install -c conda-forge openjdk=11
    ```
 
-**Now after installing dependancies you can run below python file to use spark dataframe to predict**
+    **Now after installing dependancies you can run below python file to use spark dataframe to predict**
 
     Run below:
 
