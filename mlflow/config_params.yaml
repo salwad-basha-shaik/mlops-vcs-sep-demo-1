@@ -10,3 +10,5 @@ decision_tree:
   criterion: gini,   # Default, you can change this to "entropy" if needed
   max_depth": 10,       # Limit the depth of the tree
   random_state: 8888
+
+  
