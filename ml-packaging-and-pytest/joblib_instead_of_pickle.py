@@ -1,6 +1,6 @@
 # Refer to this github repo for complete demo 
 # https://github.com/salwad-basha-shaik/mlops-end-to-end-with-nyc-taxi/blob/main/src/features/data_preprocessing.py
-# 
+# joblib instead of pickle is used to save memory ( as pickle store array into list and also it will load as list so memory will be more and also joblib is speed compare to pickle file)
 
 import numpy as np
 from yaml import safe_load
