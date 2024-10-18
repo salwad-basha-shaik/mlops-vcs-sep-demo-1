@@ -1,6 +1,9 @@
 # Refer to this github repo for complete demo 
 # https://github.com/salwad-basha-shaik/mlops-end-to-end-with-nyc-taxi/blob/main/src/features/data_preprocessing.py
+# https://github.com/salwad-basha-shaik/CampusX-courses-mlops-and-ds-and-ai/blob/main/End-to-End%20ML%20Project%20using%20MLOps/Session-5_Session%205%20-%20Experimentation%20Tracking%20and%20FAST%20API.md
 # joblib instead of pickle is used to save memory ( as pickle store array into list and also it will load as list so memory will be more and also joblib is speed compare to pickle file)
+#jobib and data pipeline using dvc and run experiments
+#watch 1:11 at https://www.youtube.com/watch?v=F16E1I1AZeY&t=2s
 
 import numpy as np
 from yaml import safe_load
