@@ -45,9 +45,9 @@ X_test = fill.fit_transform(X_test)
 # Define the model hyperparameters
 params = {
     "solver": "lbfgs",
-    "max_iter": 12,
+    "max_iter": 20,
     "multi_class": "auto",
-    "random_state": 123,
+    "random_state": 140,
 }
 
 # Train the model
@@ -78,7 +78,7 @@ dagshub.init(repo_owner='salwad-basha-shaik', repo_name='mlops-vcs-sep-demo-1', 
 import mlflow
 
 mlflow.set_experiment("LRexperimentdiabets1")
-#mlflow.set_tracking_uri(uri="http://127.0.0.1:5000/")
+mlflow.set_tracking_uri(uri="http://127.0.0.1:5000/")
 
 with mlflow.start_run():
     mlflow.log_params(params)
@@ -89,3 +89,36 @@ with mlflow.start_run():
         'f1_score_macro': report_dict['macro avg']['f1-score']
     })
     mlflow.sklearn.log_model(lr, "Logistic Regression") 
+
+##########
+# below is for the locally running mlflow with 5000 port
+from mlflow.tracking import MlflowClient
+
+client = MlflowClient()
+all_experiments = client.search_experiments()
+print(all_experiments)
+
+############
+
+
+
+############ NOT WORKING BELOW CODE.
+# below is for the dagshub running mlflow to get list of experiments.
+from dagshub import DagsHub
+import dagshub
+
+# Initialize DagsHub client
+dagshub_client = DagsHub()
+
+# Replace 'your_username' and 'your_repository' with your DagsHub username and repository name
+username = 'salwad-basha-shaik'
+repository = 'mlops-vcs-sep-demo-1'
+
+# Get the list of experiments
+experiments = dagshub_client.get_experiments(username=username, repository=repository)
+
+# Print the experiments
+for experiment in experiments:
+    print(f"ID: {experiment['id']}, Name: {experiment['name']}")
+###############
+

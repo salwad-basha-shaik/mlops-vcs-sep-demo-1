@@ -188,7 +188,7 @@ streamlit run app.py
 
 ```bash
 .
-├── app.py                      # Flask API or Streamlit app
+├── app.py or streamlit-app.py                   # Flask API or Streamlit app
 ├── logistic_regression_model.joblib  # Saved model
 ├── diabetes.csv                # Dataset
 └── README.md                   # Project Documentation
