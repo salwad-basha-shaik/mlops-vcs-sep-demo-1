@@ -65,7 +65,7 @@ report_dict
 
 
 import dagshub
-dagshub.init(repo_owner='edurekajuly24gcp', repo_name='dagshub-demo', mlflow=True)
+dagshub.init(repo_owner='salwad-basha-shaik', repo_name='mlops-vcs-sep-demo-1', mlflow=True)
 
 
 import mlflow
