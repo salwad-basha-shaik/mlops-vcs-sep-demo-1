@@ -63,6 +63,13 @@ print(report)
 report_dict = classification_report(y_test, y_pred, output_dict=True)
 report_dict
 
+import joblib
+
+# Save the model
+joblib.dump(lr, 'logistic_regression_model.joblib')
+
+# To load the model later
+# lr_model = joblib.load('logistic_regression_model.joblib')
 
 import dagshub
 dagshub.init(repo_owner='salwad-basha-shaik', repo_name='mlops-vcs-sep-demo-1', mlflow=True)
